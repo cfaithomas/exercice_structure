@@ -48,7 +48,7 @@ void menu() {
 }
 
 amis* saisirami() {
-    amis ami; //variable pointeur locale
+    amis ami; //variable locale
     printf("Veuillez saisir le nom");
     scanf("%s",ami.nom);
     printf("Veuillez saisir le téléphone");
